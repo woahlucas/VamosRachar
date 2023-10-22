@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Vamos Rachar?</string>
+    <string name="ilustracao_descricao">um aperto de mão</string>
+    <string name="vamos_rachar">Vamos Rachar!</string>
+    <string name="insira_pessoas">Insira o número de pessoas</string>
+    <string name="insira_valor">Insira o valor da conta</string>
+    <string name="falar">Falar</string>
 </resources>

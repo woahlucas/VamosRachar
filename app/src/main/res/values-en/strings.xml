@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Let\'s Split?</string>
+    <string name="ilustracao_descricao">a handshake</string>
+    <string name="vamos_rachar">Let\'s Split!</string>
+    <string name="insira_pessoas">Insert the number of people</string>
+    <string name="insira_valor">Insert the value of the bill</string>
+    <string name="falar">Speak</string>
+</resources>

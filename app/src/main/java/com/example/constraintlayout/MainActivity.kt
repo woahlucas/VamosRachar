@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() , TextWatcher, TextToSpeech.OnInitListe
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        getActionBar()?.hide()
         setContentView(R.layout.activity_main)
         edtConta = findViewById<EditText>(R.id.edtConta)
         edtNumeroPessoas = findViewById(R.id.nPessoas)
@@ -38,7 +39,7 @@ class MainActivity : AppCompatActivity() , TextWatcher, TextToSpeech.OnInitListe
         edtNumeroPessoas.addTextChangedListener(this)
         btnCompartilhar.setOnClickListener{
             val intent = Intent(Intent.ACTION_SEND)
-            intent.type = "text/plain"
+            intent.type = "text/plain2"
             intent.putExtra(Intent.EXTRA_TEXT, strTTS)
             startActivity(intent)
         }
